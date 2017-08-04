@@ -1,0 +1,231 @@
+\documentclass[a4paper, 10pt]{IEEEconf}  
+
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+    
+\usepackage{verbatim}
+\usepackage{graphicx}
+\usepackage{pdfpages}
+\usepackage{cite}
+\usepackage{listings}
+\usepackage{float}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+
+\lstset{
+	tabsize=2,
+	breaklines=true
+}
+
+\setlength{\parskip}{1em}
+\onecolumn
+
+\title{\LARGE \bf Industrial Systems Design and Integration\\Assessment 1 282 772}
+\author{Marc Alexander Sferrazza \\ 12164165
+\thanks{This work was not supported by any organization}
+\thanks{Faculty of Mechatronics Engineering, Massey University, Albany, Auckland, New Zealand
+        {\tt\small Progress of projects 2017: https://github.com/alex1v1a/} } }
+
+\begin{document}
+
+\maketitle
+
+
+%\begin{figure}[H]
+%  \begin{center}
+%  \includegraphics[width=100mm]{images/final}
+%  \label{fig:Final Product}
+%  \end{center}
+%\end{figure}
+
+
+\thispagestyle{empty}
+\pagestyle{plain}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{abstract}
+A critical review of methodology used to date with problem solving techniques in general, and for the Massey Soccer Robot project 2016; Applying the principles of the Toyota way method with technologies in industrial systems on comparison with past experiences.
+\end{abstract}
+
+
+\clearpage
+\tableofcontents
+%\clearpage
+%\listoffigures
+%\listoftables
+\thispagestyle{empty}
+\clearpage
+\twocolumn
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setcounter{page}{1}
+
+\section{INTRODUCTION}
+
+A critical review of my problem-solving techniques and methodologies over the Soccer Robot 2016 project. Reviewing the applied appropriate principles and technologies relevant in industrial systems design and integration.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Project: Soccer Robot 2016}
+
+I have chosen to talk about the Massey Soccer project 2016, as it was a team environment with a variety of range in members. From performance and activity, it not only was a learning task in the development of the product; but also in dealing with people working as a team. While the team was maybe not the best in performance, certainly there was an acquired skill in development and understanding with peers to be applied as skills to a project.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Process's Implemented}
+
+%What was the/their problem/s or need/s?
+
+Some of the more focused aspects of the Soccer Robot where problems in development were first discovered was near the end of the project, after some testing unveiled issues with communication to and from the devices and some fundamental flaws which had been overlooked. 
+
+The original model for the soccer robot had to be constantly tested and tweaked to better fit the design plan. The main issue is that we tried to work backwards after finding the market and suitability of the product, to the age group and demographic, we found many options for upgrades here. Some upgrades were questionnaires in the app to unlock new features and levels of difficulty. Add-ons which were intended for future proofing lead to over complexing our objectives and became out of scope.
+
+Some other issues we had were to get things talking to each other and automation, and specific requirements and measurements met such as:
+\begin{itemize}
+	\item The goalie was to be the automated segment however when searching for the striker (the controlled aspect being the soccer-ball itself) the sensors would always be able to block from scoring - More programming was required to add randomness to the situation and miss sometimes, however when this was added the sensor completely lost sync and had to be developed further.
+	\\
+	\item Voltage regulator (12VDC to 5VDC) with the PWM solar charging was inconsistent which lead to a more efficient MPPT tracker being needed to upgrade.
+	\item Communication from the app and goalie automation with the goals score being a problem when trying to link it to a scoring display when the striker(ball) passed the line.
+	\item With all great prototypes comes mistakes and rebuilds with constant checks and issues in measurements and real world fitting. This was a great practice, even though it was tedious to take better accountability for the measurements of specific parts.
+	\item Safety features needed to be added and checked and signed off, this wasn't so much a problem but more of an addition considered during the build phase when it should have been considered earlier on in the management and planning for user safety.
+	\item As a user friendly device it would have been better to have rounded off edges and a more robust and safe design however to be fair the tools for castingwere not available at the time.
+\end{itemize}
+
+The concepts made it an expensive product which was not fitted to our market as much as it could have been; however it was sustainable and did have great aspects in low maintenance. 
+
+It also provided the ability to converge with multiple units (say a friend came over) to a full soccer field rather then just a penalty kick scenario.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Critical Analysation}
+
+%How did I approach addressing this/these problem/s or need/s? 
+
+In order to solve most of these problems, revisions were made and tested. Each time an edition was made, other issues that may be found before a build were also fixed that were unnoticed before. 
+
+Some of the pros of this were that when revisions were built, physical adaptations could be easily spotted and alterations could be made based on the demonstration of user interaction. 
+
+Adjustments to some of the background features could be more accurately aligned with components which were not readily available with a testing block to be manually edited before going back to the design phase.
+\\
+\\
+
+The main con of this was that other then being a use of excess material, the revisions needed to be redesigned graphically, and then simulations needed to be redone to check the life span of the product and strain points. Full simulations before a test bench print would be more effective with further thorougher design methods.
+
+In future I would take the design and break it down more on paper and drawings, which is what I should have done first rather then jumping onto a computer; then check the measurements in an open space to get more of an idea to the realistic and reasonable dimensions. 
+
+Only after going through and asking my peers their opinions, would I begin to render this on a computer, where I could further scrutinise and find flaws. Sit on the design for a few days checking over it for any fresh ideas and thought, then go ahead with a prototype.
+
+What I should have done was to look more in depth and developed over time, with more effective processing to find better solutions. Taking more consideration and time with the team in finding the underlying problem, and how we could relate our skill set to it in a more effective way. 
+
+While maybe not a simpler method, but better suited product could be achieved in range of our skill sets; which could narrow our scope. Keeping our performance higher for a more limited approach; thus possibly meeting the objective criteria to a fuller extent. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{The Toyota Way}
+
+The 1st principle in relation to my long term goals are very much to keep a high standard and great work ethic while maintaining a healthy lifestyle. This for me would to be work hard when its time to work and get the work done and out of the way, then enjoy the time until the deadline and relax.
+
+Essentially how I have applied the 2nd and 3rd principles are based on the good old expression "measure twice and cut once" where I take a problem identify and discuss it; then draw it on paper scrap it brainstorm and rebuild it, and finally once agreed on the practicality draw it up on the computer. But thats not it, now more scrutiny and testing checking parts not only fit, but also stress testing the designs to make sure they support the required expected life of the product.
+\\
+
+This helps reduce the amount of waste, and also time spent building as many test rigs and trial benchmarks. Now with the ability to use simulations in a given application I will be able to reduce these factors even further; and with the goal of reaching optimal required resources I will be able to meet a more accurate level as described in the 4th principle. 
+
+The simulations skills also leads into getting things closer to the correct requirements the first time. With the combination of this and the skills learned from Solid Works I will be able to directly test the lifespan of the application and the ability to preform its required tasks to a more accurate manner getting the quality right the first time (5th principle). 
+
+As of yet I know that group tasks and leadership hold key values for many life situations and will be an important skill that I will be using for almost everything in my field. Having the ability to work well with others no matter above or below me on the ladder is something I have worked on in all my jobs and projects thus far. 
+
+The skills to standardise things fits nicely with my slight OCD and helps to improve efficiency. I think this is a great working method and environment with organisation and tidiness (Principle 7) which I have applied very well through the years.
+
+For testing designs in the past environments and time frames, things had to be done in segments. I hope that in future I will get more time to spend in the testing and benchmarking to improve the reliability of the product and meet the targets described in principle 8.
+
+With leadership and team building described in principles 9, 10, 11 I believe that I have briefly filled these rolls and tasks over the few projects while with Massey. I have also worked well for 4 years as a general manager in a hospitality job, helping to pay for my studies; managing a staff of 50 with up to a roster 30 on any given day. I am in charge of the though calls and the hard calls including hiring and firing. 
+
+I will continue to build on these skills and respect for people which I will hopefully integrate well in the field. I also think that my first hand experiences down on the bottom levels to the top levels of management in some of the hands on jobs have helped in my understanding and building something from the ground up has really opened a perspective of the "go-and-see" operations described in section 4 (principle 12) I think this is a development I will certainly be able to apply for many situations.
+\\
+\\
+
+For the policy set in principle 13 I think that it suitably is related to the same principles like that of guns policy. I don't believe in the use of weapons or the privilege to have personal weapons, but that does not make me negligent to learn about them. 
+
+Although my personal beliefs of the availability of weapons to public may not be shared, I do not find this an excuse to look the other way; which is why I have a fire arms license and have learned a fair amount about weapons. This is a reasonable approach I take on life and to avoid a bias which I apply to all situations. 
+
+Just because I don't agree with something or don't like something, it will not stop me from learning more about it to better fully understand a given issue form all angles. This method helps me build my knowledge to make stronger and more informed decisions wether it be a product, a service, or day to day decisions and information.
+
+Finally with all I have achieved thus far and all I may achieve, constant reflection on my abilities and work must always be checked so I can better improve myself and the ways I learn. At this stage as far as I am aware there is no limit to the knowledge we can collect; so why not keep learning all the time and evaluate myself to reach higher levels of standardisation and be capable of higher quality performance (principle 14)
+
+
+
+%continuous improvement, and respect for people
+%
+%Long-Term Philosophy
+%The Right Process Will Produce the Right Results
+%Add Value to the Organisation by Developing Your People
+%Continuously Solving Root Problems Drives Organisational Learning
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{OUTCOMES}
+
+%How will I effect these different approaches?
+
+%What would I do differently?
+
+I think with my experience's with past projects and not only in teams I will be able to maintain a higher work standard with more sampling and testing before starting the design. I will preform in gathering more information and brainstorming after finding the underlying issue, then compacting the method to something achievable for design, build, and testing.
+
+With the tools I have acquired I am more ready to approach problems and break things down to make a workable product of which is not only particle, but also utilising as much of my skill as possible without overwhelming myself. 
+
+I believe that with future projects more time in the startup planning and management is a vital part for every project, and building things such as Gantt charts and progress logs with a measurement spreadsheet of hours spent in each aspect is a great way to keep track and make valid measurements of progress.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{CONCLUSIONS}
+
+I found what ended up working for me in this particular project was to take lead and delegate the workload accordingly; however it remains difficult with peers whom may be less willing to commit to their self chosen tasks and depend the time and effort, this is a lacking of some in all projects but something I have learned to compensate for over the years which has unfortunately been in every team project thus far. 
+
+I am hoping that as I progress, there are more and more whom are as enthusiastic towards the projects as I am; and that I will not need to press my peers to work harder, I want to be part of some teams who all work hard together, and that doesn't have any one given leader roll but rather people who do parts of projects and do them well without delegation and work together in a shared work environment.
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\nocite{*}
+\bibliographystyle{ieeetr}
+\bibliography{references}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\clearpage
+\onecolumn
+
+%\section*{APPENDIX}
+
+\begin{lstlisting}[language = C++]
+
+\end{lstlisting}
+
+\end{document}
+
+%\clearpage
+
+%\begin{figure}[H]
+%  \includegraphics[width=\linewidth]{images/IR}
+%  \caption{Adafruit IR sensor}
+%  \label{fig:Adafruit IR sensor}
+%\end{figure}
+
+%\begin{itemize}
+%	\item Sensing elements and signal conditioning used within a mechatronic device
+%	\item Pneumatics and hydraulics
+%	\item Mechanical and electrical actuators
+%	\item Integrated mechatronic sub-systems to build a mechatronic device
+%	\item Configured and use PC and PLC control systems
+%\end{itemize}

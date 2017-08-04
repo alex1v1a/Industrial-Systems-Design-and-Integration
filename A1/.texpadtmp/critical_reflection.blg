@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: /Users/FLCL/Documents/University 2017/Industrial-Systems-Design-and-Integration/A1/.texpadtmp/critical_reflection.aux
+The style file: ieeetr.bst
+Database file #1: ../references.bib
+You've used 3 entries,
+            1876 wiz_defined-function locations,
+            497 strings with 4005 characters,
+and the built_in function-call counts, 731 in all, are:
+= -- 74
+> -- 16
+< -- 0
++ -- 7
+- -- 4
+* -- 45
+:= -- 107
+add.period$ -- 4
+call.type$ -- 3
+change.case$ -- 2
+chr.to.int$ -- 0
+cite$ -- 3
+duplicate$ -- 40
+empty$ -- 82
+format.name$ -- 4
+if$ -- 181
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 4
+newline$ -- 13
+num.names$ -- 3
+pop$ -- 12
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 22
+stack$ -- 0
+substring$ -- 43
+swap$ -- 13
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 9
+width$ -- 4
+write$ -- 32

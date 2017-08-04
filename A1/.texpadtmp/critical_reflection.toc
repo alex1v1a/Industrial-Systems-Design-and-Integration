@@ -1,0 +1,7 @@
+\contentsline {section}{\numberline {1}INTRODUCTION}{1}{section.1}
+\contentsline {section}{\numberline {2}Project: Soccer Robot 2016}{1}{section.2}
+\contentsline {subsection}{\numberline {2.1}Process's Implemented}{1}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Critical Analysation}{1}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}The Toyota Way}{2}{subsection.2.3}
+\contentsline {section}{\numberline {3}OUTCOMES}{3}{section.3}
+\contentsline {section}{\numberline {4}CONCLUSIONS}{3}{section.4}
