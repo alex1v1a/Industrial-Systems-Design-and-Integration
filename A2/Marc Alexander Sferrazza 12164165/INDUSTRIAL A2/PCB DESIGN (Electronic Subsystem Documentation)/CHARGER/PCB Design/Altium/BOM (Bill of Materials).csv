@@ -1,0 +1,14 @@
+Comment,Description,Designator,Footprint,LibRef,Quantity
+
+"","Capacitor","C1, C2, C4, C9","CAPC3216L","Cap","4"
+"","Capacitor, Capacitor, Capacitor, Capacitor, Capacitor, Resistor, Resistor, Resistor, Resistor, Resistor, Resistor, Resistor, Resistor, Resistor, Resistor, Resistor, Resistor","C3, C5, C6, C7, C8, R1, R2, R3, R5, R7, R8, R9, R10, R11, R12, R13, R14","6-0805_L","Cap, Cap, Cap, Cap, Cap, Res1, Res1, Res1, Res1, Res1, Res1, Res1, Res1, Res1, Res1, Res1, Res1","17"
+"green","Typical RED, GREEN, YELLOW, AMBER GaAs LED","D1, D2","6-0805_L","LED2","2"
+"red","Typical RED, GREEN, YELLOW, AMBER GaAs LED","D3","6-0805_L","LED2","1"
+"Header 2","Header, 2-Pin","J1","691305130002","Header 2","1"
+"Header 4","Header, 4-Pin","J2, J3","691305130004","Header 4","2"
+"Header 3","Header, 3-Pin","J4","691305130003","Header 3","1"
+"Header 3","Header, 3-Pin","J5, J6, J7, J8, J9, J10","HDR1X3","Header 3","6"
+"Inductor","Inductor","L1","IND2926","Inductor","1"
+"0.5W","Resistor","R4","12Z-2010","Res1","1"
+"CRCW0603-00R0-F","Resistor","R6","6-0805_L","Res1","1"
+"BQ24103ARHLR","Imported","U1","RHL20_2P05X3P05","BQ24103ARHLR","1"

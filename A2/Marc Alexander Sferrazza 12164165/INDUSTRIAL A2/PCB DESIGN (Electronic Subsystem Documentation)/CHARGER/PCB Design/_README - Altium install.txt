@@ -1,0 +1,1 @@
+Please visit http://www.altium.com/ to install the software in which to open the corresponding files
