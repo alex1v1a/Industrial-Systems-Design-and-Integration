@@ -1,0 +1,26 @@
+\begin{thebibliography}{1}
+
+\bibitem{tfinstall}
+D.~F.~K. Noble, ``Getting started with tensorflow.''
+  \url{https://www.youtube.com/watch?v=Q-FF_0NAT3s}.
+\newblock [Online; accessed 19-August-2017].
+
+\bibitem{adam}
+A.~D. Tensor Flow Training~Tutorials, ``Adam optimizer.''
+  \url{https://www.tensorflow.org/api_docs/python/tf/train/AdamOptimizer}.
+\newblock [Online; accessed 24-September-2017].
+
+\bibitem{Stream}
+D.~F.~K. Noble, ``Assessment 3 resources - stream.''
+  \url{http://stream.massey.ac.nz/mod/folder/view.php?id=2052029}.
+\newblock [Online; accessed 14-August-2017].
+
+\bibitem{MLP}
+D.~F.~K. Noble, ``Multi-layered perceptron (mlp) training.''
+  \url{https://github.com/FKNoble/tensorflow_projects/blob/master/tutorials/tutorial_4.py}.
+\newblock [Online; accessed 20-September-2017].
+
+\bibitem{Topic}
+
+
+\end{thebibliography}
