@@ -1,8 +1,10 @@
 \contentsline {section}{\numberline {1}INTRODUCTION}{1}{section.1}
-\contentsline {subsection}{\numberline {1.1}Installation}{1}{subsection.1.1}
-\contentsline {section}{\numberline {2}METHOD}{1}{section.2}
-\contentsline {subsection}{\numberline {2.1}Multi-Layered Perceptron (MLP) Training}{1}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Importing the CSV}{1}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Nodes}{1}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Base Optimizer}{1}{subsection.2.4}
-\contentsline {section}{\numberline {3}RESULTS}{1}{section.3}
+\contentsline {section}{\numberline {2}PCB DESIGN (Electronic Subsystem Documentation)}{1}{section.2}
+\contentsline {subsection}{\numberline {2.1}PCB Layout}{1}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Schematic Capture}{2}{subsection.2.2}
+\contentsline {section}{\numberline {3}PROJECT BUILD DESIGN (Mechanical Subsystem Documentation)}{3}{section.3}
+\contentsline {subsection}{\numberline {3.1}System Architecture Diagram}{3}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Solidworks}{4}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Adobe illustrator - Laser Cut}{5}{subsection.3.3}
+\contentsline {section}{\numberline {4}PROGRAMMING (Soft/Firmware Subsystem Documentation)}{6}{section.4}
+\contentsline {subsection}{\numberline {4.1}Algorithm Architecture flow diagram}{6}{subsection.4.1}

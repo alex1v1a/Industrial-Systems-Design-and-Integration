@@ -3,42 +3,50 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: /Users/FLCL/Documents/University 2017/Industrial-Systems-Design-and-Integration/A3/LaTex/.texpadtmp/TensorFlow - Marc Alexander Sferrazza 12164165.aux
 The style file: ieeetr.bst
 Database file #1: ../references.bib
-You're missing a field name---line 37 of file ../references.bib
+You're missing a field name---line 65 of file ../references.bib
  : 
  : #    author = {Author},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Repeated entry---line 71 of file ../references.bib
+ : # @misc{Topic
+ :              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 78 of file ../references.bib
+ : # @misc{Topic
+ :              ,
+I'm skipping whatever remains of this entry
 Warning--all relevant fields are empty in Topic
-You've used 5 entries,
+You've used 9 entries,
             1876 wiz_defined-function locations,
-            499 strings with 4388 characters,
-and the built_in function-call counts, 621 in all, are:
-= -- 54
-> -- 17
+            521 strings with 4934 characters,
+and the built_in function-call counts, 1149 in all, are:
+= -- 106
+> -- 33
 < -- 0
-+ -- 9
-- -- 4
-* -- 19
-:= -- 90
-add.period$ -- 9
-call.type$ -- 5
-change.case$ -- 4
++ -- 17
+- -- 8
+* -- 35
+:= -- 166
+add.period$ -- 17
+call.type$ -- 9
+change.case$ -- 8
 chr.to.int$ -- 0
-cite$ -- 6
-duplicate$ -- 20
-empty$ -- 88
-format.name$ -- 4
-if$ -- 155
+cite$ -- 10
+duplicate$ -- 36
+empty$ -- 160
+format.name$ -- 8
+if$ -- 291
 int.to.chr$ -- 0
-int.to.str$ -- 5
+int.to.str$ -- 9
 missing$ -- 0
-newline$ -- 22
-num.names$ -- 4
-pop$ -- 32
+newline$ -- 38
+num.names$ -- 8
+pop$ -- 60
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 20
+skip$ -- 32
 stack$ -- 0
 substring$ -- 0
 swap$ -- 0
@@ -47,7 +55,7 @@ text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 4
-width$ -- 6
-write$ -- 42
-(There was 1 error message)
+while$ -- 8
+width$ -- 10
+write$ -- 78
+(There were 3 error messages)

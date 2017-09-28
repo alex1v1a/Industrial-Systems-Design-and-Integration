@@ -1,9 +1,29 @@
 \begin{thebibliography}{1}
 
+\bibitem{ML}
+.~92991v00, ``Machine learning section1 ebook.''
+  \url{https://au.mathworks.com/content/dam/mathworks/tag-team/Objects/i/88174_92991v00_machine_learning_section1_ebook.pdf.}
+\newblock [Online; accessed 20-September-2017].
+
+\bibitem{CODE}
+M.~CODE, ``Visual studio code - code editing. redefined..''
+  \url{https://code.visualstudio.com/.}
+\newblock [Online; accessed 22-September-2017].
+
 \bibitem{tfinstall}
 D.~F.~K. Noble, ``Getting started with tensorflow.''
   \url{https://www.youtube.com/watch?v=Q-FF_0NAT3s}.
 \newblock [Online; accessed 19-August-2017].
+
+\bibitem{GS}
+TensorFlow, ``Getting started with tensorflow.''
+  \url{https://www.tensorflow.org/get_started/get_started.}
+\newblock [Online; accessed 22-September-2017].
+
+\bibitem{MLP2}
+Wikipedia, ``Multilayer perceptron.''
+  \url{https://en.wikipedia.org/wiki/Multilayer_perceptron.}
+\newblock [Online; accessed 21-September-2017].
 
 \bibitem{adam}
 A.~D. Tensor Flow Training~Tutorials, ``Adam optimizer.''

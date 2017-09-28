@@ -35,20 +35,6 @@
 \begin{document}
 
 \maketitle
-%\begin{figure}[h]
-%\begin{subfigure}{0.5\textwidth}
-%\includegraphics[width=1.5\textwidth, left]{images/ROS} 
-%%\caption{ROS}
-%\label{fig:ROS}
-%\end{subfigure}
-%\begin{subfigure}{0.5\textwidth}
-%\includegraphics[width=0.3\textwidth, right]{images/gazebo}
-%%\caption{Gazebo} 
-%\label{fig:Gazebo}
-%\end{subfigure}
-%%\caption{Caption for this figure with two images}
-%%\label{fig:image2}
-%\end{figure}
 \begin{figure}[H]
   \begin{center}
   \includegraphics[width=110mm]{images/tf}
@@ -87,7 +73,7 @@ In this documentation TensorFlow's neural network machine learning is used to fi
 
 \section{INTRODUCTION}
 
-TensorFlow is a free python language based library which is used for machine learning using neural networks to determine functions based on given inputs and outputs. As TensorFlow (TF) is supported by the community it makes as a favourable tool to learn, and is not only capable of black box systems, but also able to coordinate with complex systems with learning nodes.
+TensorFlow is a free(open-source) python language based library which is used for machine learning (intelligence) using neural networks to determine functions based on given inputs and outputs\cite{ML}. As TensorFlow (TF) is supported by the community it makes as a favourable tool to learn, and is not only capable of black box systems, but also able to coordinate with complex systems with learning nodes.
 
 In this documentation the program TensorFlow is used to train a neural network that will approximate an unknown function of y=f(x) for a given vector. Using Python 3.5+ syntax and TensorFlow 1.0+ syntax, a predefined data set csv file will be called on which to preform the learning task for an output range.
 
@@ -96,9 +82,9 @@ In this documentation the program TensorFlow is used to train a neural network t
 
 \subsection{Installation}
 
-As TensorFlow uses Python, it supports multiple platforms including Mac, Windows, Linux, and Chrome OS. I have successfully installed Python 3.6 with a TensorFlow Python 3.5 CPU based workspace from source and have things compiled nicely; however for consistency with the lectures at Massey and to avoid any unnecessary errors I have completed these tasks using the advised programs with Visual Studio's CODE on Windows 10 OS. To setup and install TensorFlow simply follow the instructions on the TensorFlow website, or see the Getting Started with TensorFlow video on Frazer Nobles YouTube channel \cite{tfinstall}
+As TensorFlow uses Python, it supports multiple platforms including Mac, Windows, Linux, and Chrome OS. I have successfully installed Python 3.6 with a TensorFlow Python 3.5 CPU based workspace from source and have things compiled nicely; however for consistency with the lectures at Massey and to avoid any unnecessary errors I have completed these tasks using the advised programs with Visual Studio's CODE on Windows 10 OS\cite{CODE}. To setup and install TensorFlow simply follow the instructions on the TensorFlow website, or see the Getting Started with TensorFlow video on Frazer Nobles YouTube channel \cite{tfinstall}
 
-When setting up TensorFlow it features to automatically add to the environmental variables PATH, however the Python version and must be set to 3.5 manually (due to current version of 3.6), along with the option for CPU or GPU compiling. Visual Studios CODE is installed as the editor with a built in terminal cmd for quick compiling. Finally after setting up and installing TensorFlow with Python and CODE, a test program is written to check the status of the install with success.
+When setting up TensorFlow it features to automatically add to the environmental variables PATH, however the Python version and must be set to 3.5 manually (due to current version of 3.6), along with the option for CPU or GPU compiling. Visual Studios CODE is installed as the editor with a built in terminal cmd for quick compiling. Finally after setting up and installing TensorFlow with Python and CODE, a test program is written to check the status of the install with success\cite{GS}.
 
 \begin{figure}[H]
   \includegraphics[width=0.5\linewidth, center]{images/test}
@@ -111,186 +97,66 @@ When setting up TensorFlow it features to automatically add to the environmental
 %\clearpage
 \section{METHOD}
 
-Using TensorFlows neural network training MLP method, an approximation can be made for the y=f(x) function. As discussed in the lectures to revise what was mentioned, the training method involves the input to segment blocks, where it is compared and examined with the relationship of output in a set shape space. The learning rate is the increment of which will define how well the relationship can be made with the smoothest function; this over iterations with a certain node size (mutations) and can give a higher accuracy with more reliable results of many iterations. 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\subsection{Multi-Layered Perceptron (MLP) Training}
-
-Multi-Layered Perceptron (MLP) is used..... and trained
-
-Placeholders are used to provide input
-
-
-Using this training method ....
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\clearpage
-\subsection{Importing the CSV}
-
-A csv file, containing pairs of x and y values is read into the .....
-
-
-
-
-%2. Add a screenshot of ROSCORE running in a terminal 
-%Roscore is the fundamental processing command on which ROS can activate the simulation environment; from here gazebo can spawn models which can be edited with plugins and controlled via nodes as explained later.
-%
-%\begin{figure}[H]
-%\begin{subfigure}{\textwidth}
-%	\begin{center}
-%  	\includegraphics[width=0.7\textwidth]{images/ROSCORE}
-%  	\label{fig:ROSCORE running in terminal Mac Desktop}
-%  	\end{center}
-%\end{subfigure}
-%\begin{subfigure}{\textwidth}
-%	\begin{center}
-%  	\includegraphics[width=0.7\textwidth]{images/ROSCORE2}
-%  	\label{fig:ROSCORE running in terminal enlarged}
-%  	\end{center}
-%\end{subfigure}
-%\end{figure}
-%
-%Above is a demonstration of ROSCORE running in a terminal on Ubuntu operating system. This is currently in coherent mode but for better performance in later tasks the virtual runtime is switched to windowed mode.
+Using TensorFlows neural network training MLP method, an approximation can be made for the y=f(x) function. As discussed in the lectures, the training method involves the input to segment blocks, where it is compared and examined with the relationship of output in a set shape space. The learning rate is the increment of which will define how well the relationship can be made with the smoothest function; this over iterations with a certain node size (mutations) and can give a higher accuracy with more reliable results of many iterations. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\clearpage
 \subsection{Nodes}
 
-when you have a slow learning rate, you need more iterations, 
+Nodes in a graph represent mathematical operations, while the graph's edges represent multi-dimensional data arrays (tensors); by combining Tensor nodes more complicated operations can be computed.
 
-but if you have a higher learning rate you waste alot of time getting stuck in local minimuns
+\begin{figure}[H]
+  \includegraphics[width=0.35\linewidth, center]{images/nodes}
+  \caption{laser plugin node setup}
+  \label{fig:laser plugin node setup}
+\end{figure}
 
-lower learning rate, learns more finely...
+Communicated between nodes can be compared to the action synapsis in the brain. When there is a slow learning rate, more iterations are required, but if there is a higher learning rate it will take a lot of time getting stuck in local minimums. The more nodes there are, the more variations there will be and the different types of variations the learning algorithm will try. For a three node two layer base there are 6 nodes total, adding the input and outputs give 8 nodes.
 
-The more node you have the more variations you have
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-The more different types of variations it will try
+\subsection{Multi-Layered Perceptron (MLP) Training}
 
-If you have 3 nodes you have 
+Multi-Layered Perceptron (MLP) is a class of feedforward artificial neural network. There are at least 3 layers of nodes of which are neurons except for input nodes and are trained by weight and changing their connections after each piece of data is passed using back-propagation. \cite{MLP2}
 
-source code can be adapted to plot the given x and y values and the neural network's inferred output
+Placeholders are used to provide input for the organisation of multiple layers. In many cases MLP's are used for solving problems stochastically such as complex problems that require more approximate solutions which makes it a powerful tool when used finding the function of a graph an performance based problems.
 
-%5. What links the simulated robot in Gazebo to ROS nodes? A good explanation with figures and/or codes snippets is required.
-%Using some of the default plugins provided from the ROS package site, in this case the "Differential Drive" we can assign the left and right joints (wheels) to the controller. The controller in turn will take the response value passed from the Teleop Node and preform the movement in the joint.
-%
-%\begin{figure}[H]
-%\begin{subfigure}{\textwidth}
-%	\begin{center}
-%  	\includegraphics[width=0.7\textwidth]{images/Plugin}
-%  	\label{fig:Using plugins provided from ROS}
-%  	\end{center}
-%\end{subfigure}
-%\begin{subfigure}{\textwidth}
-%	\begin{center}
-%  	\includegraphics[width=0.7\textwidth]{images/Plugin2}
-%  	\label{fig:Applying the plugin}
-%  	\end{center}
-%\end{subfigure}
-%\end{figure}
-%
-%Note: The highlighted text is copied directly without the "gazebo" tags; also once the plugin is added to the model sdf file it is then edited with gedit to match the joint name values e.g. left wheel and so on.
-%
-%\clearpage
-%Again we can do this for the laser plugin and add the plugin to the create model 1.4
-%
-%\begin{figure}[H]
-%  \includegraphics[width=0.8\linewidth, center]{images/laser}
-%  \caption{laser plugin node setup}
-%  \label{fig:laser plugin node setup}
-%\end{figure}
-%
-%Here is the model with the laser scanner attached
-%
-%\begin{figure}[H]
-%  \includegraphics[width=0.8\linewidth, center]{images/laserdemo}
-%  \caption{laser plugin node mesh graphic}
-%  \label{fig:laser plugin node mesh graphic}
-%\end{figure}
-%
-%After the plugin is assigned to the sdk file the subscriber nodes can be setup. By creating a package and compiling it, the executables can then be run and useful output given from various broadcasted topics.
-%
-%\clearpage
-%Below is a demonstration of the odometry topic, and a node being used to give the user a notice when the 5 meter mark has bene reached in along the x and y axis. 
-%
-%\begin{figure}[H]
-%  \includegraphics[width=0.8\linewidth, center]{images/odomcode}
-%  \caption{Subscriber odom node setup}
-%  \label{fig:Subscriber odom node setup}
-%\end{figure}
-%
-%Here is the cpp code for the subscriber to the cmd velocity topic.
-%
-%\begin{figure}[H]
-%  \includegraphics[width=0.8\linewidth, center]{images/cmdvelcode}
-%  \caption{Subscriber cmd vel node setup}
-%  \label{fig:Subscriber cmd vel node setup}
-%\end{figure}
-%
-%\clearpage
-%Then the new cpp files are added to the cmake file to be compiled as executables the next time catkin make command is called.
-%
-%\begin{figure}[H]
-%  \includegraphics[width=0.8\linewidth, center]{images/exe}
-%  \caption{nodes executables setup}
-%  \label{fig:nodes executables setup}
-%\end{figure}
-%
-%After completing and running the new node when the subscriber receives information from the broadcaster; it is then displayed on the console like the following.
-%
-%\begin{figure}[H]
-%  \includegraphics[width=0.8\linewidth, center]{images/cmdvelsub}
-%  \caption{A demo showing the cmd vel node being executed, output from the moving model}
-%  \label{fig:A demo showing the cmd vel node being executed, output from the moving model}
-%\end{figure}
+Using this training method for finding the function of f(x) utilises the regression technique and when preformed with the response variable being categorical can find the error of the output from the expected result, this is also known as supervised learning.
 
+As such mentioned in the tutorial introduction for the basis of this task the nodes are arranged into layers as per below.
+
+\begin{figure}[H]
+  \includegraphics[width=0.5\linewidth, center]{images/mlp}
+  \caption{A Multi-Layer Perceptron (MLP) neural network. Here, there are two
+hidden layers, each with three neurons. The input and output layers have one
+neuron each}
+  \label{fig:A Multi-Layer Perceptron (MLP) neural network. Here, there are two
+hidden layers, each with three neurons. The input and output layers have one
+neuron each}
+\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\clearpage
-\subsection{Base Optimizer}
+\subsection{Importing the CSV}
 
+A csv file, containing pairs of x and y values are read into the variables inputX and inputY respectively. In the lecture slides for machine learning part 2 it mentions several ways in which to import a csv file with the utilities library as utilise features = utils.read CSV(['./data/data.csv']) etc however this program will use the csv library mentioned in code. The values are read into the shaped array and appended to each line for the plots, there are 101 values total. 
 
+After these values are read in the input is passed as places holders to the MLP which in turn uses two layers for the computation learning and parameters mentioned in the section above and the code attached in the appendix.
 
-%4. Include screenshots of "teleop node" and the robot in Gazebo at different positions. This should not be more than one page. 
-%Below is a demonstration of the Teleop Node used to control the left and right wheels with the plugins mentioned earlier.
-%
-%\begin{figure}[H]
-%\begin{subfigure}{\textwidth}
-%	\begin{center}
-%  	\includegraphics[width=0.7\textwidth]{images/Teleop}
-%  	\label{fig:Teleop node running on ubuntu}
-%  	\end{center}
-%\end{subfigure}
-%\begin{subfigure}{\textwidth}
-%	\begin{center}
-%  	\includegraphics[width=\textwidth]{images/Position}
-%  	\label{fig:A model iRobot Create spawned in Gazebo using teleop node for movements}
-%  	\end{center}
-%\end{subfigure}
-%\end{figure}
-%
-%Shown above is the rviz graphical representation of the odometry, the purple vertical lines represent the position while the red arrows show the directional vector. Rviz is great for graphical demos of what the robot interacts with in the model environment, e.g a scanner attached to find a obstacles and other objects.
-%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\clearpage
-%Again Shown the rviz using the laser node with obstruction blocks and the subscribed laser topic, the representation is given by flat squares in red.
-%
-%\begin{figure}[H]
-%  \includegraphics[width=0.8\linewidth, center]{images/rvizlaser}
-%  \caption{A demo showing the cmd vel node being executed, output from the moving model}
-%  \label{fig:A demo showing the cmd vel node being executed, output from the moving model}
-%\end{figure}
+\subsection{Base Optimiser}
+
+Initially the Gradient Computation optimiser was used as per the example in tutorial 4 example. While this produced fair results, they have room for improvement with this task. The Gradient Optimiser works by it's automatic differentiation, the chain rule knows the derivatives of each operation and can combine them automatically.
+
+The Adam Optimiser is used to preform this optimisation. It provides better results and does this using a couple of methods including re-scaling of gradients, an automatic step size bound and annealing, and compensates for changes in f(x) over time. The stochastic function with parameters gives a better estimate for more complex situations and in turn can compensate for the unforeseen in a more reasonable state.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{RESULTS}
 
-Original Data set \& Inferred Output is shown 
-
-An image illustrating the original data set and the inferred output of your program.
-
-After successfully configuring the Multi-Layered Perceptron (MLP), reading in the values in the provided csv
+After successfully configuring the Multi-Layered Perceptron (MLP), reading in the values in the provided csv, preforming the learning task, the results can be shown below on an image illustrating the original data set and the inferred output of the program.
 
 \begin{figure}[H]
   \includegraphics[width=0.8\linewidth, center]{images/plot}
@@ -298,7 +164,7 @@ After successfully configuring the Multi-Layered Perceptron (MLP), reading in th
   \label{fig:The final resultant is shown in compare on a graph}
 \end{figure}
 
-Once the initial results were found, to further the accuracy of the output the training of the MLP using the Adam Optimiser algorithum was used as suggested in class, please see variable for assigned learn rate in the code in the appendix. Below is the revised version using the Adam optimiser with specified nodes and learning rates as described in the logic documentation \cite{adam}. A clear difference between the optimiser reflects the accuracy for the learning of the function in this case.
+Once the initial results were found, to further the accuracy of the output the training of the MLP using the Adam Optimiser algorithm was used as suggested in class, please see variable for assigned learn rate in the code in the appendix. Below is the revised version using the Adam optimiser with specified nodes and learning rates as described in the logic documentation \cite{adam}. A clear difference between the optimiser reflects the accuracy for the learning of the function in this case.
 
 \begin{figure}[H]
   \includegraphics[width=0.8\linewidth, center]{images/3}
@@ -306,15 +172,14 @@ Once the initial results were found, to further the accuracy of the output the t
   \label{fig:The final resultant is shown in compare on a graph}
 \end{figure}
 
+The above figure was produced using a node size of 300, with an epochy of 300,000 and learning rate of 0.005
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{OUTCOMES}
 
-%Through the above steps ROS has been successfully installed, the Gazebo runtime is used with the catkin workspace to spawn a model with edited plugins that are able to be controlled via the teleop node. 
-%
-%The output is then displayed on the rviz graphical demonstration. A custom node is implemented to subscribe to the velocity topic and display the variable speed with a mentioned warning.
-
+The machine learning task was completed with best results using MLP and the Adam Optimisation technique. The node size is optimal from 20+ with a learning rate less then 0.02 and epochy (iterations) are subjectible.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -323,7 +188,9 @@ Once the initial results were found, to further the accuracy of the output the t
 
 For any progress related to the report please see the public Github repo for alex1v1a or use the link in the cover page to be automatically redirected to this project. The repo provides all relative project information
 
-I have come to a further understanding learned the fundamentals of TensorFlow with the use of such machine learning tools like Multi-Layered Perceptron using placeholders. This is a powerful tool and from the basic level of understanding is an strong aspect of the machine learning processing, it is a great skill to learn.
+I have come to a further understanding learned the fundamentals of TensorFlow's with nodes and tensors, and the use of such machine learning tools like Multi-Layered Perceptron using placeholders. This is a powerful tool and from a basic level of understanding is a strong aspect of machine learning processing, it is a great skill to learn. 
+
+The appendix contains a full documentation of my modified version of Frazer Nobles GitHub Tutorial 4 - Unfortunately I was unable to use Tutorial 6 to complete this assignment after several attempts using Batching.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -351,7 +218,7 @@ import matplotlib.pyplot as plt # For graphing and plotting etc
 # Adjustable Values, Nodes, Learning Rate, and epochy 
 nodeSize = 300 # More variation, more mutation
 learnRate = 0.005 # Lower the learning rate the higher accuracy
-iteration = 300000 # How many times it wil go through - epochy
+iteration = 300000 # How many times it will go through - epochy
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3' # Suppresses warnings
 
