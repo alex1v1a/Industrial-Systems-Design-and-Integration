@@ -1,0 +1,19 @@
+Change Component Footprint: Designator=C3 Old Footprint=1608[0603] New Footprint=6-0805_L
+Change Component Footprint: Designator=C6 Old Footprint=1608[0603] New Footprint=6-0805_L
+Change Component Footprint: Designator=C7 Old Footprint=1608[0603] New Footprint=6-0805_L
+Change Component Footprint: Designator=C8 Old Footprint=1608[0603] New Footprint=6-0805_L
+Change Component Footprint: Designator=D1 Old Footprint=1608[0603] New Footprint=6-0805_L
+Change Component Footprint: Designator=D2 Old Footprint=1608[0603] New Footprint=6-0805_L
+Change Component Footprint: Designator=D3 Old Footprint=1608[0603] New Footprint=6-0805_L
+Change Component Footprint: Designator=R1 Old Footprint=1608[0603] New Footprint=6-0805_L
+Change Component Footprint: Designator=R2 Old Footprint=1608[0603] New Footprint=6-0805_L
+Change Component Footprint: Designator=R3 Old Footprint=1608[0603] New Footprint=6-0805_L
+Change Component Footprint: Designator=R6 Old Footprint=1608[0603] New Footprint=6-0805_L
+Change Component Footprint: Designator=R8 Old Footprint=1608[0603] New Footprint=6-0805_L
+Change Component Footprint: Designator=R9 Old Footprint=1608[0603] New Footprint=6-0805_L
+Change Component Footprint: Designator=R10 Old Footprint=1608[0603] New Footprint=6-0805_L
+Change Component Footprint: Designator=R11 Old Footprint=1608[0603] New Footprint=6-0805_L
+Change Component Footprint: Designator=R12 Old Footprint=1608[0603] New Footprint=6-0805_L
+Change Component Footprint: Designator=R13 Old Footprint=1608[0603] New Footprint=6-0805_L
+Change Component Footprint: Designator=R14 Old Footprint=1608[0603] New Footprint=6-0805_L
+Added Room: Name=CarterCharger

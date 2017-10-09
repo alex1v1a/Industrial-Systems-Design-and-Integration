@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.12)  8 OCT 2017 17:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.12)  8 OCT 2017 22:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"TensorFlow - Marc Alexander Sferrazza 12164165.tex"
-(./TensorFlow - Marc Alexander Sferrazza 12164165.tex
+**"Vision Automatic Systems - Marc Alexander Sferrazza 12164165.tex"
+(./Vision Automatic Systems - Marc Alexander Sferrazza 12164165.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/IEEEconf/IEEEconf.cls
@@ -444,12 +444,8 @@ Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
 \mult@nat@firstbox=\box59
 \colbreak@box=\box60
 \mc@col@check@num=\count128
-) (/Users/FLCL/Documents/University 2017/Industrial-Systems-Design-and-Integration/A3/LaTex/.texpadtmp/TensorFlow - Marc Alexander Sferrazza 12164165.aux
-
-LaTeX Warning: Label `fig:The final resultant is shown in compare on a graph' multiply defined.
-
-)
-\openout1 = `"TensorFlow - Marc Alexander Sferrazza 12164165.aux"'.
+) (/Users/FLCL/Documents/University 2017/Industrial-Systems-Design-and-Integration/A4/LaTex/.texpadtmp/Vision Automatic Systems - Marc Alexander Sferrazza 12164165.aux)
+\openout1 = `"Vision Automatic Systems - Marc Alexander Sferrazza 12164165.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
 LaTeX Font Info:    ... okay on input line 35.
@@ -553,9 +549,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 35.
 LaTeX Info: Redefining \pageref on input line 35.
 LaTeX Info: Redefining \nameref on input line 35.
- (/Users/FLCL/Documents/University 2017/Industrial-Systems-Design-and-Integration/A3/LaTex/.texpadtmp/TensorFlow - Marc Alexander Sferrazza 12164165.out) (/Users/FLCL/Documents/University 2017/Industrial-Systems-Design-and-Integration/A3/LaTex/.texpadtmp/TensorFlow - Marc Alexander Sferrazza 12164165.out)
+ (/Users/FLCL/Documents/University 2017/Industrial-Systems-Design-and-Integration/A4/LaTex/.texpadtmp/Vision Automatic Systems - Marc Alexander Sferrazza 12164165.out) (/Users/FLCL/Documents/University 2017/Industrial-Systems-Design-and-Integration/A4/LaTex/.texpadtmp/Vision Automatic Systems - Marc Alexander Sferrazza 12164165.out)
 \@outlinefile=\write3
-\openout3 = `"TensorFlow - Marc Alexander Sferrazza 12164165.out"'.
+\openout3 = `"Vision Automatic Systems - Marc Alexander Sferrazza 12164165.out"'.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
@@ -607,129 +603,56 @@ Underfull \hbox (badness 2277) in paragraph at lines 38--38
 [][]\OT1/ptm/m/n/8 Faculty of Mecha-tron-ics En-gi-neer-ing, Massey Uni-ver-sity, Al-bany, Auck-land, New Zealand \OT1/pcr/m/n/9 Progress of project:
  []
 
-<images/tf.jpg, id=44, 1284.8pt x 722.7pt>
-File: images/tf.jpg Graphic file (type jpg)
- <use images/tf.jpg>
-Package pdftex.def Info: images/tf.jpg used on input line 40.
-(pdftex.def)             Requested size: 312.9803pt x 176.043pt.
+<images/match.jpg, id=52, 602.25pt x 451.6875pt>
+File: images/match.jpg Graphic file (type jpg)
+ <use images/match.jpg>
+Package pdftex.def Info: images/match.jpg used on input line 40.
+(pdftex.def)             Requested size: 312.9803pt x 234.741pt.
  [1
 
 
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/tf.jpg>] (/Users/FLCL/Documents/University 2017/Industrial-Systems-Design-and-Integration/A3/LaTex/.texpadtmp/TensorFlow - Marc Alexander Sferrazza 12164165.toc
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
-)
-\tf@toc=\write4
-\openout4 = `"TensorFlow - Marc Alexander Sferrazza 12164165.toc"'.
-
- (/Users/FLCL/Documents/University 2017/Industrial-Systems-Design-and-Integration/A3/LaTex/.texpadtmp/TensorFlow - Marc Alexander Sferrazza 12164165.lof)
-\tf@lof=\write5
-\openout5 = `"TensorFlow - Marc Alexander Sferrazza 12164165.lof"'.
-
- [2
-
-]
-
-LaTeX Warning: Citation `ML' on page 1 undefined on input line 76.
-
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/match.jpg>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 83.
-
-LaTeX Warning: Citation `CODE' on page 1 undefined on input line 85.
-
-
-LaTeX Warning: Citation `tfinstall' on page 1 undefined on input line 85.
-
-
-LaTeX Warning: Citation `GS' on page 1 undefined on input line 87.
-
-<images/test.png, id=82, 323.2075pt x 308.15125pt>
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 77.
+ <images/test.png, id=65, 323.2075pt x 308.15125pt>
 File: images/test.png Graphic file (type png)
  <use images/test.png>
-Package pdftex.def Info: images/test.png used on input line 90.
+Package pdftex.def Info: images/test.png used on input line 84.
 (pdftex.def)             Requested size: 226.48395pt x 215.93478pt.
- <images/nodes.png, id=84, 225.84375pt x 132.495pt>
-File: images/nodes.png Graphic file (type png)
- <use images/nodes.png>
-Package pdftex.def Info: images/nodes.png used on input line 109.
-(pdftex.def)             Requested size: 158.54152pt x 93.01675pt.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.112 \end{figure}
-                   [1
-
-
-
-
- <./images/test.png>]
-
-LaTeX Warning: Citation `MLP2' on page 2 undefined on input line 120.
-
-<images/mlp.png, id=89, 296.10625pt x 220.825pt>
-File: images/mlp.png Graphic file (type png)
- <use images/mlp.png>
-Package pdftex.def Info: images/mlp.png used on input line 129.
-(pdftex.def)             Requested size: 226.48395pt x 168.90697pt.
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.143 
-       [2 <./images/nodes.png> <./images/mlp.png>] <images/plot.png, id=95, 462.528pt x 346.896pt>
-File: images/plot.png Graphic file (type png)
- <use images/plot.png>
-Package pdftex.def Info: images/plot.png used on input line 162.
-(pdftex.def)             Requested size: 362.37569pt x 271.79521pt.
-
-
-LaTeX Warning: Citation `adam' on page 3 undefined on input line 167.
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3 <./images/plot.png>] <images/3.png, id=101, 462.528pt x 346.896pt>
-File: images/3.png Graphic file (type png)
- <use images/3.png>
-Package pdftex.def Info: images/3.png used on input line 170.
-(pdftex.def)             Requested size: 362.37569pt x 271.79521pt.
- (/Users/FLCL/Documents/University 2017/Industrial-Systems-Design-and-Integration/A3/LaTex/.texpadtmp/TensorFlow - Marc Alexander Sferrazza 12164165.bbl) [4 <./images/3.png>] (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-) [5
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.127 \section{CRITIQUE}
+                         [1
 
 
-]
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 283.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 303.
- [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 303.
- (/Users/FLCL/Documents/University 2017/Industrial-Systems-Design-and-Integration/A3/LaTex/.texpadtmp/TensorFlow - Marc Alexander Sferrazza 12164165.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 303.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 303.
-Package rerunfilecheck Info: File `"TensorFlow - Marc Alexander Sferrazza 12164165".out' has not changed.
+ <./images/test.png>] (/Users/FLCL/Documents/University 2017/Industrial-Systems-Design-and-Integration/A4/LaTex/.texpadtmp/Vision Automatic Systems - Marc Alexander Sferrazza 12164165.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 178.
+ [2]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 178.
+ (/Users/FLCL/Documents/University 2017/Industrial-Systems-Design-and-Integration/A4/LaTex/.texpadtmp/Vision Automatic Systems - Marc Alexander Sferrazza 12164165.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 178.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 178.
+Package rerunfilecheck Info: File `"Vision Automatic Systems - Marc Alexander Sferrazza 12164165".out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 303.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 178.
  ) 
 Here is how much of TeX's memory you used:
- 11053 strings out of 493014
- 169547 string characters out of 6133351
- 452673 words of memory out of 5000000
- 14277 multiletter control sequences out of 15000+600000
- 40453 words of font info for 86 fonts, out of 8000000 for 9000
+ 10649 strings out of 493014
+ 163836 string characters out of 6133351
+ 261292 words of memory out of 5000000
+ 13987 multiletter control sequences out of 15000+600000
+ 35576 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,13n,77p,697b,1883s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "/Users/FLCL/Documents/University 2017/Industrial-Systems-Design-and-Integration/A3/LaTex/.texpadtmp/TensorFlow - Marc Alexander Sferrazza 12164165.pdf" (8 pages, 244630 bytes).
+ 42i,13n,77p,477b,351s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "/Users/FLCL/Documents/University 2017/Industrial-Systems-Design-and-Integration/A4/LaTex/.texpadtmp/Vision Automatic Systems - Marc Alexander Sferrazza 12164165.pdf" (3 pages, 209457 bytes).
 PDF statistics:
- 264 PDF objects out of 1000 (max. 8388607)
- 233 compressed objects within 3 object streams
- 116 named destinations out of 1000 (max. 500000)
- 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 104 PDF objects out of 1000 (max. 8388607)
+ 89 compressed objects within 1 object stream
+ 18 named destinations out of 1000 (max. 500000)
+ 107 words of extra memory for PDF output out of 10000 (max. 10000000)
 

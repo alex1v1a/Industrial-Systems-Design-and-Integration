@@ -1,0 +1,115 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\altium\Documents\engineering\project\CarterCharger\CarterCharger.PcbDoc
+Date     : 16/07/2017
+Time     : 1:11:56 AM
+
+Processing Rule : Clearance Constraint (Gap=20mil) (OnCopper and InPoly),(IsKeepOut)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=40mil) (OnCopper and InComponentClass('Mounting Holes')),(IsKeepOut)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=20mil) (OnCopper and Not InComponentClass('Logo') and not InComponentClass('FiducialMark') and not InRegion(1000,500,4000,800) and Not IsKeepout),(IsKeepOut)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=7mil) (All),(All)
+   Violation between Clearance Constraint: (2.998mil < 7mil) Between Text "Copyright (C) 2015 Accelerated Designs. All rights reserved" (1755mil,4005mil) on Multi-Layer And Pad U1-15(1822.913mil,3995.157mil) on Top Layer 
+   Violation between Clearance Constraint: (2.331mil < 7mil) Between Text "Copyright (C) 2015 Accelerated Designs. All rights reserved" (1755mil,4005mil) on Multi-Layer And Pad U1-16(1822.913mil,4014.843mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 7mil) Between Text "Copyright (C) 2015 Accelerated Designs. All rights reserved" (1755mil,4005mil) on Multi-Layer And Pad U1-21(1755mil,4005mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 7mil) Between Text "Copyright (C) 2015 Accelerated Designs. All rights reserved" (1755mil,4005mil) on Multi-Layer And Via (1775.591mil,4006.89mil) from Top Layer to Bottom Layer 
+Rule Violations :4
+
+Processing Rule : Clearance Constraint (Gap=10mil) (InPolygon),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0mil) (((IsTrack Or IsArc) And Not InPoly) And IsFree and IsKeepOut),(((IsTrack Or IsArc) And Not InPoly) And IsFree and IsKeepOut)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=5mil) (All),(InComponent('D2'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0mil) (TouchesRoom('U1')AND InNet('AGND')),(TouchesRoom('U1')AND InNet('PGND'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=5mil) (All),(InComponent('J6'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=5mil) (All),(InComponent('J5'))
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+   Violation between Short-Circuit Constraint: Between Text "Copyright (C) 2015 Accelerated Designs. All rights reserved" (1755mil,4005mil) on Multi-Layer And Pad U1-21(1755mil,4005mil) on Top Layer Location : [X = 1774.677mil][Y = 4005.333mil]
+   Violation between Short-Circuit Constraint: Between Text "Copyright (C) 2015 Accelerated Designs. All rights reserved" (1755mil,4005mil) on Multi-Layer And Via (1775.591mil,4006.89mil) from Top Layer to Bottom Layer Location : [X = 1775.591mil][Y = 4005.333mil]
+Rule Violations :2
+
+Processing Rule : Short-Circuit Constraint (Allowed=Yes) (TouchesRoom('U1') and InNet('AGND')),(TouchesRoom('U1') and InNet('PGND'))
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5mil) (Max=100mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : SMD To Corner (Distance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=10mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=4mil) (IsVia and InAnyComponent)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=6mil) (All)
+Rule Violations :0
+
+Processing Rule : Acute Angle Constraint (Minimum=45.000) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=7mil) (Max=500mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=3mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.7mil) (InComponentClass('Logo')),(InComponentClass('Logo'))
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=3mil) (IsPad),(All)
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 3mil) Between Text "C4" (1942.968mil,4231.48mil) on Top Overlay And Pad L1-2(2066.929mil,4355.315mil) on Top Layer [Top Overlay] to [Top Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (2.707mil < 3mil) Between Text "PN" (1755mil,4005mil) on Top Overlay And Pad U1-15(1822.913mil,3995.157mil) on Top Layer [Top Overlay] to [Top Solder] clearance [2.707mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 3mil) Between Text "PN" (1755mil,4005mil) on Top Overlay And Pad U1-16(1822.913mil,4014.843mil) on Top Layer [Top Overlay] to [Top Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 3mil) Between Text "PN" (1755mil,4005mil) on Top Overlay And Pad U1-17(1822.913mil,4034.528mil) on Top Layer [Top Overlay] to [Top Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 3mil) Between Text "PN" (1755mil,4005mil) on Top Overlay And Pad U1-18(1822.913mil,4054.213mil) on Top Layer [Top Overlay] to [Top Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (2.816mil < 3mil) Between Text "R6" (1418.307mil,4084.646mil) on Top Overlay And Pad C1-2(1460mil,4101.85mil) on Top Layer [Top Overlay] to [Top Solder] clearance [2.816mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 3mil) Between Text "C5" (1567.913mil,3988.189mil) on Top Overlay And Pad C2-2(1560mil,4101.85mil) on Top Layer [Top Overlay] to [Top Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 3mil) Between Text "C8" (1946.543mil,4101.905mil) on Top Overlay And Pad C4-1(2066.929mil,4162.402mil) on Top Layer [Top Overlay] to [Top Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 3mil) Between Text "C8" (1946.543mil,4101.905mil) on Top Overlay And Pad C4-2(1960.63mil,4162.402mil) on Top Layer [Top Overlay] to [Top Solder] clearance [0mil]
+Rule Violations :9
+
+Processing Rule : Silk to Silk (Clearance=0mil) ((HasFootprint('Pb-Free_Overlay_Medium') OR HasFootprint('Pb-Free_Overlay_Small'))),((HasFootprint('Pb-Free_Overlay_Medium') OR HasFootprint('Pb-Free_Overlay_Small')))
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=5mil) (All),(All)
+   Violation between Silk To Silk Clearance Constraint: (1.087mil < 5mil) Between Text "C4" (1942.968mil,4231.48mil) on Top Overlay And Track (1808.071mil,4221.457mil)(2095.472mil,4221.457mil) on Top Overlay Silk Text to Silk Clearance [1.087mil]
+   Violation between Silk To Silk Clearance Constraint: (3.228mil < 5mil) Between Text "R6" (1418.307mil,4084.646mil) on Top Overlay And Track (1430.473mil,4139.252mil)(1430.473mil,4170.748mil) on Top Overlay Silk Text to Silk Clearance [3.228mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 5mil) Between Text "C8" (1946.543mil,4101.905mil) on Top Overlay And Track (1998.032mil,4132.874mil)(2029.527mil,4132.874mil) on Top Overlay Silk Text to Silk Clearance [0mil]
+   Violation between Silk To Silk Clearance Constraint: (1.613mil < 5mil) Between Text "R13" (1779.331mil,3605.63mil) on Top Overlay And Text "R10" (1917.323mil,3737.205mil) on Top Overlay Silk Text to Silk Clearance [1.613mil]
+   Violation between Silk To Silk Clearance Constraint: (1.87mil < 5mil) Between Text "C6" (1436.024mil,3861.22mil) on Top Overlay And Text "R8" (1312.992mil,3789.37mil) on Top Overlay Silk Text to Silk Clearance [1.87mil]
+Rule Violations :5
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 20
+Time Elapsed        : 00:00:02

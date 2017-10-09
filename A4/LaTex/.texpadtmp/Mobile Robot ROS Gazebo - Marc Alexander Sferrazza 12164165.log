@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.12)  8 OCT 2017 17:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.12)  23 AUG 2017 23:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"TensorFlow - Marc Alexander Sferrazza 12164165.tex"
-(./TensorFlow - Marc Alexander Sferrazza 12164165.tex
+**"Mobile Robot ROS Gazebo - Marc Alexander Sferrazza 12164165.tex"
+(./Mobile Robot ROS Gazebo - Marc Alexander Sferrazza 12164165.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/IEEEconf/IEEEconf.cls
@@ -444,12 +444,12 @@ Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
 \mult@nat@firstbox=\box59
 \colbreak@box=\box60
 \mc@col@check@num=\count128
-) (/Users/FLCL/Documents/University 2017/Industrial-Systems-Design-and-Integration/A3/LaTex/.texpadtmp/TensorFlow - Marc Alexander Sferrazza 12164165.aux
+) (/Users/FLCL/Documents/University 2017/Simulation-Modelling-and-Optimisation/Khalid/A2/LaTex/.texpadtmp/Mobile Robot ROS Gazebo - Marc Alexander Sferrazza 12164165.aux
 
-LaTeX Warning: Label `fig:The final resultant is shown in compare on a graph' multiply defined.
+LaTeX Warning: Label `fig:A demo showing the cmd vel node being executed, output from the moving model' multiply defined.
 
 )
-\openout1 = `"TensorFlow - Marc Alexander Sferrazza 12164165.aux"'.
+\openout1 = `"Mobile Robot ROS Gazebo - Marc Alexander Sferrazza 12164165.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
 LaTeX Font Info:    ... okay on input line 35.
@@ -553,9 +553,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 35.
 LaTeX Info: Redefining \pageref on input line 35.
 LaTeX Info: Redefining \nameref on input line 35.
- (/Users/FLCL/Documents/University 2017/Industrial-Systems-Design-and-Integration/A3/LaTex/.texpadtmp/TensorFlow - Marc Alexander Sferrazza 12164165.out) (/Users/FLCL/Documents/University 2017/Industrial-Systems-Design-and-Integration/A3/LaTex/.texpadtmp/TensorFlow - Marc Alexander Sferrazza 12164165.out)
+ (/Users/FLCL/Documents/University 2017/Simulation-Modelling-and-Optimisation/Khalid/A2/LaTex/.texpadtmp/Mobile Robot ROS Gazebo - Marc Alexander Sferrazza 12164165.out) (/Users/FLCL/Documents/University 2017/Simulation-Modelling-and-Optimisation/Khalid/A2/LaTex/.texpadtmp/Mobile Robot ROS Gazebo - Marc Alexander Sferrazza 12164165.out)
 \@outlinefile=\write3
-\openout3 = `"TensorFlow - Marc Alexander Sferrazza 12164165.out"'.
+\openout3 = `"Mobile Robot ROS Gazebo - Marc Alexander Sferrazza 12164165.out"'.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
@@ -607,129 +607,181 @@ Underfull \hbox (badness 2277) in paragraph at lines 38--38
 [][]\OT1/ptm/m/n/8 Faculty of Mecha-tron-ics En-gi-neer-ing, Massey Uni-ver-sity, Al-bany, Auck-land, New Zealand \OT1/pcr/m/n/9 Progress of project:
  []
 
-<images/tf.jpg, id=44, 1284.8pt x 722.7pt>
-File: images/tf.jpg Graphic file (type jpg)
- <use images/tf.jpg>
-Package pdftex.def Info: images/tf.jpg used on input line 40.
-(pdftex.def)             Requested size: 312.9803pt x 176.043pt.
+<images/ROS.png, id=40, 682.55pt x 366.36874pt>
+File: images/ROS.png Graphic file (type png)
+ <use images/ROS.png>
+Package pdftex.def Info: images/ROS.png used on input line 40.
+(pdftex.def)             Requested size: 339.72592pt x 182.35655pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
+ <images/gazebo.png, id=42, 196.735pt x 282.656pt>
+File: images/gazebo.png Graphic file (type png)
+ <use images/gazebo.png>
+Package pdftex.def Info: images/gazebo.png used on input line 45.
+(pdftex.def)             Requested size: 67.94586pt x 97.61993pt.
+
+Overfull \hbox (1.90002pt too wide) in paragraph at lines 39--51
+[]$[]$ $[]$ 
+ []
+
+<images/kinetic.png, id=43, 2525.435pt x 2091.815pt>
+File: images/kinetic.png Graphic file (type png)
+ <use images/kinetic.png>
+Package pdftex.def Info: images/kinetic.png used on input line 54.
+(pdftex.def)             Requested size: 312.9803pt x 259.24194pt.
  [1
 
 
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/tf.jpg>] (/Users/FLCL/Documents/University 2017/Industrial-Systems-Design-and-Integration/A3/LaTex/.texpadtmp/TensorFlow - Marc Alexander Sferrazza 12164165.toc
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
-)
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/ROS.png> <./images/gazebo.png> <./images/kinetic.png>] (/Users/FLCL/Documents/University 2017/Simulation-Modelling-and-Optimisation/Khalid/A2/LaTex/.texpadtmp/Mobile Robot ROS Gazebo - Marc Alexander Sferrazza 12164165.toc)
 \tf@toc=\write4
-\openout4 = `"TensorFlow - Marc Alexander Sferrazza 12164165.toc"'.
-
- (/Users/FLCL/Documents/University 2017/Industrial-Systems-Design-and-Integration/A3/LaTex/.texpadtmp/TensorFlow - Marc Alexander Sferrazza 12164165.lof)
-\tf@lof=\write5
-\openout5 = `"TensorFlow - Marc Alexander Sferrazza 12164165.lof"'.
+\openout4 = `"Mobile Robot ROS Gazebo - Marc Alexander Sferrazza 12164165.toc"'.
 
  [2
 
 ]
-
-LaTeX Warning: Citation `ML' on page 1 undefined on input line 76.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 83.
-
-LaTeX Warning: Citation `CODE' on page 1 undefined on input line 85.
-
-
-LaTeX Warning: Citation `tfinstall' on page 1 undefined on input line 85.
-
-
-LaTeX Warning: Citation `GS' on page 1 undefined on input line 87.
-
-<images/test.png, id=82, 323.2075pt x 308.15125pt>
-File: images/test.png Graphic file (type png)
- <use images/test.png>
-Package pdftex.def Info: images/test.png used on input line 90.
-(pdftex.def)             Requested size: 226.48395pt x 215.93478pt.
- <images/nodes.png, id=84, 225.84375pt x 132.495pt>
-File: images/nodes.png Graphic file (type png)
- <use images/nodes.png>
-Package pdftex.def Info: images/nodes.png used on input line 109.
-(pdftex.def)             Requested size: 158.54152pt x 93.01675pt.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 99.
+ <images/Install.png, id=72, 396.48125pt x 453.695pt>
+File: images/Install.png Graphic file (type png)
+ <use images/Install.png>
+Package pdftex.def Info: images/Install.png used on input line 108.
+(pdftex.def)             Requested size: 226.48395pt x 259.16959pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.112 \end{figure}
-                   [1
+l.115 \clearpage
+                 [1
 
 
 
 
- <./images/test.png>]
-
-LaTeX Warning: Citation `MLP2' on page 2 undefined on input line 120.
-
-<images/mlp.png, id=89, 296.10625pt x 220.825pt>
-File: images/mlp.png Graphic file (type png)
- <use images/mlp.png>
-Package pdftex.def Info: images/mlp.png used on input line 129.
-(pdftex.def)             Requested size: 226.48395pt x 168.90697pt.
+ <./images/Install.png>] <images/Block.png, id=78, 511.9125pt x 697.60625pt>
+File: images/Block.png Graphic file (type png)
+ <use images/Block.png>
+Package pdftex.def Info: images/Block.png used on input line 127.
+(pdftex.def)             Requested size: 362.37569pt x 493.8243pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.143 
-       [2 <./images/nodes.png> <./images/mlp.png>] <images/plot.png, id=95, 462.528pt x 346.896pt>
-File: images/plot.png Graphic file (type png)
- <use images/plot.png>
-Package pdftex.def Info: images/plot.png used on input line 162.
-(pdftex.def)             Requested size: 362.37569pt x 271.79521pt.
+l.133 
+       [2
 
+ <./images/Block.png>] <images/BlockDiagram.png, id=84, 708.6475pt x 460.72125pt>
+File: images/BlockDiagram.png Graphic file (type png)
+ <use images/BlockDiagram.png>
+Package pdftex.def Info: images/BlockDiagram.png used on input line 135.
+(pdftex.def)             Requested size: 362.37569pt x 235.59743pt.
+ <images/rqtgraph.png, id=85, 470.75874pt x 246.9225pt>
+File: images/rqtgraph.png Graphic file (type png)
+ <use images/rqtgraph.png>
+Package pdftex.def Info: images/rqtgraph.png used on input line 143.
+(pdftex.def)             Requested size: 362.37569pt x 190.07437pt.
+ [3 <./images/BlockDiagram.png> <./images/rqtgraph.png>] <images/ROSCORE.png, id=94, 1609.01125pt x 1053.9375pt>
+File: images/ROSCORE.png Graphic file (type png)
+ <use images/ROSCORE.png>
+Package pdftex.def Info: images/ROSCORE.png used on input line 157.
+(pdftex.def)             Requested size: 317.07614pt x 207.67998pt.
+ <images/ROSCORE2.png, id=95, 694.595pt x 432.61626pt>
+File: images/ROSCORE2.png Graphic file (type png)
+ <use images/ROSCORE2.png>
+Package pdftex.def Info: images/ROSCORE2.png used on input line 163.
+(pdftex.def)             Requested size: 317.07614pt x 197.48763pt.
+ [4
 
-LaTeX Warning: Citation `adam' on page 3 undefined on input line 167.
+ <./images/ROSCORE.png> <./images/ROSCORE2.png>] <images/Plugin.png, id=103, 812.03375pt x 396.48125pt>
+File: images/Plugin.png Graphic file (type png)
+ <use images/Plugin.png>
+Package pdftex.def Info: images/Plugin.png used on input line 180.
+(pdftex.def)             Requested size: 317.07614pt x 154.8146pt.
+ <images/Plugin2.png, id=104, 820.06375pt x 1027.84pt>
+File: images/Plugin2.png Graphic file (type png)
+ <use images/Plugin2.png>
+Package pdftex.def Info: images/Plugin2.png used on input line 186.
+(pdftex.def)             Requested size: 317.07614pt x 397.4213pt.
+ [5
 
+ <./images/Plugin.png> <./images/Plugin2.png>] <images/laser.png, id=113, 931.48pt x 662.475pt>
+File: images/laser.png Graphic file (type png)
+ <use images/laser.png>
+Package pdftex.def Info: images/laser.png used on input line 198.
+(pdftex.def)             Requested size: 362.37569pt x 257.71727pt.
+ <images/laserdemo.png, id=114, 734.745pt x 486.81876pt>
+File: images/laserdemo.png Graphic file (type png)
+ <use images/laserdemo.png>
+Package pdftex.def Info: images/laserdemo.png used on input line 206.
+(pdftex.def)             Requested size: 362.37569pt x 240.10321pt.
+ [6
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ <./images/laser.png> <./images/laserdemo.png>] <images/odomcode.png, id=123, 538.01pt x 554.07pt>
+File: images/odomcode.png Graphic file (type png)
+ <use images/odomcode.png>
+Package pdftex.def Info: images/odomcode.png used on input line 217.
+(pdftex.def)             Requested size: 362.37569pt x 373.19485pt.
+ <images/cmdvelcode.png, id=124, 724.7075pt x 285.065pt>
+File: images/cmdvelcode.png Graphic file (type png)
+ <use images/cmdvelcode.png>
+Package pdftex.def Info: images/cmdvelcode.png used on input line 225.
+(pdftex.def)             Requested size: 362.37569pt x 142.54085pt.
+ [7
 
- [3 <./images/plot.png>] <images/3.png, id=101, 462.528pt x 346.896pt>
-File: images/3.png Graphic file (type png)
- <use images/3.png>
-Package pdftex.def Info: images/3.png used on input line 170.
-(pdftex.def)             Requested size: 362.37569pt x 271.79521pt.
- (/Users/FLCL/Documents/University 2017/Industrial-Systems-Design-and-Integration/A3/LaTex/.texpadtmp/TensorFlow - Marc Alexander Sferrazza 12164165.bbl) [4 <./images/3.png>] (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-) [5
+ <./images/odomcode.png> <./images/cmdvelcode.png>] <images/exe.png, id=133, 875.27pt x 651.43375pt>
+File: images/exe.png Graphic file (type png)
+ <use images/exe.png>
+Package pdftex.def Info: images/exe.png used on input line 234.
+(pdftex.def)             Requested size: 362.37569pt x 269.7038pt.
+ <images/cmdvelsub.png, id=134, 1482.53876pt x 916.42375pt>
+File: images/cmdvelsub.png Graphic file (type png)
+ <use images/cmdvelsub.png>
+Package pdftex.def Info: images/cmdvelsub.png used on input line 242.
+(pdftex.def)             Requested size: 362.37569pt x 223.98741pt.
+ [8
 
+ <./images/exe.png> <./images/cmdvelsub.png>] <images/Teleop.png, id=143, 633.36626pt x 543.02875pt>
+File: images/Teleop.png Graphic file (type png)
+ <use images/Teleop.png>
+Package pdftex.def Info: images/Teleop.png used on input line 257.
+(pdftex.def)             Requested size: 317.07614pt x 271.85342pt.
+ <images/Position.png, id=144, 1927.2pt x 1044.90375pt>
+File: images/Position.png Graphic file (type png)
+ <use images/Position.png>
+Package pdftex.def Info: images/Position.png used on input line 263.
+(pdftex.def)             Requested size: 452.9679pt x 245.5843pt.
+ [9
 
-]
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 283.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 303.
- [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 303.
- (/Users/FLCL/Documents/University 2017/Industrial-Systems-Design-and-Integration/A3/LaTex/.texpadtmp/TensorFlow - Marc Alexander Sferrazza 12164165.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 303.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 303.
-Package rerunfilecheck Info: File `"TensorFlow - Marc Alexander Sferrazza 12164165".out' has not changed.
+ <./images/Teleop.png> <./images/Position.png>] <images/rvizlaser.png, id=152, 1601.985pt x 928.46875pt>
+File: images/rvizlaser.png Graphic file (type png)
+ <use images/rvizlaser.png>
+Package pdftex.def Info: images/rvizlaser.png used on input line 275.
+(pdftex.def)             Requested size: 362.37569pt x 210.01567pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 331.
+ [10
+
+ <./images/rvizlaser.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 331.
+ (/Users/FLCL/Documents/University 2017/Simulation-Modelling-and-Optimisation/Khalid/A2/LaTex/.texpadtmp/Mobile Robot ROS Gazebo - Marc Alexander Sferrazza 12164165.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 331.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 331.
+Package rerunfilecheck Info: File `"Mobile Robot ROS Gazebo - Marc Alexander Sferrazza 12164165".out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
-
-
-LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 303.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 331.
  ) 
 Here is how much of TeX's memory you used:
- 11053 strings out of 493014
- 169547 string characters out of 6133351
- 452673 words of memory out of 5000000
- 14277 multiletter control sequences out of 15000+600000
- 40453 words of font info for 86 fonts, out of 8000000 for 9000
+ 10792 strings out of 493014
+ 167253 string characters out of 6133351
+ 263135 words of memory out of 5000000
+ 14096 multiletter control sequences out of 15000+600000
+ 38822 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,13n,77p,697b,1883s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "/Users/FLCL/Documents/University 2017/Industrial-Systems-Design-and-Integration/A3/LaTex/.texpadtmp/TensorFlow - Marc Alexander Sferrazza 12164165.pdf" (8 pages, 244630 bytes).
+ 42i,13n,77p,598b,519s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on "/Users/FLCL/Documents/University 2017/Simulation-Modelling-and-Optimisation/Khalid/A2/LaTex/.texpadtmp/Mobile Robot ROS Gazebo - Marc Alexander Sferrazza 12164165.pdf" (12 pages, 7062166 bytes).
 PDF statistics:
- 264 PDF objects out of 1000 (max. 8388607)
- 233 compressed objects within 3 object streams
- 116 named destinations out of 1000 (max. 500000)
- 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 188 PDF objects out of 1000 (max. 8388607)
+ 127 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
+ 173 words of extra memory for PDF output out of 10000 (max. 10000000)
 

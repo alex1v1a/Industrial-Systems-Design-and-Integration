@@ -1,0 +1,81 @@
+A3 - TF Frazer
+Camera Calibration
+
+cv pointer to edge detector
+arrow to detect member function
+
+detect the same key points in multiple images and use feature mapping to find similar points using BRISK , fast and available - not perfect but pretty good, others are more restricted eg USA based KAZE, Surf and surf 
+
+moved the image I had was slightly different - use feature matches, Brute force BF and Feature neighbour FLANN - check slide for link to matches search for 2d feature framework
+does tell a bit about 2d features
+
+Principle component analysis
+Fit a transform matrix to those vectors to find how the images have changed to find the particular orientation of the object.
+
+Feature matching wrapped inside a class -> Feature match.h declare and the .cpp defines the member functions
+
+Orb membership function same setup for the key points in first image and second image
+
+for the feature matches using detect and compute, writing a description of those into the descriptive matrix header.
+
+if using brute force then use the BF matcher and define how they are linked to the matcher.
+
+if using ORB and BRISK for different positions use absolute of vector sqrt(x^2+y^2) or another for other types
+
+(BRISK + BF, BRISK + FLANN, ORB + BF, ORB + FLANN)
+feature_matcher.h -> the 4 possible combinations
+
+Same is for FLANN, just using a CV FLANN matcher rather then a brute force matcher
+
+the function match does the heavy lifting, - if this key point matches this key point and carry on.
+
+then go through each of the descriptors and check whats the max length whats the minimum length.. I only want everything within 60\% of my distances... otherwise if it is 100\% you will get different points matching wrong places. 
+
+If the key point is less then 75\% of max distance and greater then 25\% then its probably correct… not too short and not too long
+
+Run through the descriptors ... check for “Good” matches
+
+and at the end draw the matches, the key points and link them
+
+to use it we need 2 images and then we use the BRISK and BF matching and read in images and do the detection give the output and wait for user to press key.
+
+
+
+
+
+
+How can we use this feature matching and edge detection to detect an environment
+
+template matching and comparing with
+sample image and environment
+
+What happens if you zoom out? - Cant match rotations or zoomed etc… very limited
+
+Things like sift can rotate and scale etc still works
+
+ORB can deal with rotated and stalled environments, transposed or translated
+
+
+after checking both images, and finding the bounding area, check the average length of the vectors and do a homogenous transform (eg translate) to locate where it is and how much it has been differed...
+
+OR using principle component analysis - detect and localise (object localisation) class the implements everything - header does the declaration, and cpp does the description
+
+given enough x and y values with min of 3 values, can search through randomly to find the thing we are looking for to where it is in the image.
+
+
+object pca
+
+scaled and rotated - then draw the orientation vectors
+
+
+
+check the graphs on lecture slides, and then show the difference in detected key points
+
+sift and surf were much slower then ORB and BRISK… but detect more features... AKAZE limits to 500 key points, 
+
+
+more key points detected, the better the object detection, the better the resolution of the object 
+
+
+
+include C comparison algorithm - ...
