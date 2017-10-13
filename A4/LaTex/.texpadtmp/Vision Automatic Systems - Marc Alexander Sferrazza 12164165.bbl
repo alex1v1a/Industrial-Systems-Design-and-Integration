@@ -1,6 +1,83 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
-\bibitem{Name}
+\bibitem{Lecture1}
+D.~F.~K. Noble, ``Camera calibration.'' \url{Massey Lecture Slides}.
+\newblock [Online; accessed 09-October-2017].
 
+\bibitem{Lecture2}
+D.~F.~K. Noble, ``Feature detection, matching, and object localisation with
+  opencv, part 1.'' \url{Massey Lecture Slides}.
+\newblock [Online; accessed 09-October-2017].
+
+\bibitem{Lecture3}
+D.~F.~K. Noble, ``Feature detection, matching, and object localisation with
+  opencv, part 2.'' \url{Massey Lecture Slides}.
+\newblock [Online; accessed 09-October-2017].
+
+\bibitem{GitHub1}
+D.~F.~K. Noble, ``Github tutorials.''
+  \url{https://github.com/FKNoble/opencv_projects}.
+\newblock [Online; accessed 09-October-2017].
+
+\bibitem{OpenCV}
+OpenCV, ``Opencv library.'' \url{http://opencv.org/}.
+\newblock [Online; accessed 09-October-2017].
+
+\bibitem{VisualStudio}
+V.~Studio, ``Visual studio ide, code editor, vsts, \& mobile center.''
+  \url{https://www.visualstudio.com/}.
+\newblock [Online; accessed 09-October-2017].
+
+\bibitem{Calibration}
+``What is camera calibration? - matlab \& simulink - mathworks australia.''
+  \url{https://au.mathworks.com/help/vision/ug/camera-calibration.html}.
+\newblock [Online; accessed 09-October-2017].
+
+\bibitem{PabloF}
+P.~F. Alcantarilla and T.~Solutions, ``Fast explicit diffusion for accelerated
+  features in nonlinear scale spaces.'' \url{IEEE Trans. Patt. Anal. Mach.
+  Intell, 34(7):1281–1298, 2011}.
+\newblock [Online; accessed 09-October-2017].
+
+\bibitem{PabloA}
+A.~B. Pablo Fern~́andez Alcantarilla and A.~J. Davison, ``Kaze features.''
+  \url{In European Conference on Computer Vision, pages 214–227. Springer,
+  2012}.
+\newblock [Online; accessed 09-October-2017].
+
+\bibitem{Kaehler}
+A.~Kaehler and G.~Bradski, ``Learning opencv 3: Computer vision in c++ with the
+  opencv library.'' \url{O’Reilly Media, 2016}.
+\newblock [Online; accessed 09-October-2017].
+
+\bibitem{Stefan}
+M.~C. Stefan~Leutenegger and R.~Y. Siegwart, ``Brisk: Binary robust invariant
+  scalable keypoints.'' \url{In Computer Vision (ICCV), 2011 IEEE International
+  Conference on, pages 2548–2555. IEEE, 2011}.
+\newblock [Online; accessed 09-October-2017].
+
+\bibitem{Elmar}
+D.~B. M.~S. Elmar~Mair, Gregory D~Hager and G.~Hirzinger, ``Adaptive and
+  generic corner detection based on the accelerated segment test.'' \url{In
+  European conference on Computer vision, pages 183–196. Springer, 2010}.
+\newblock [Online; accessed 09-October-2017].
+
+\bibitem{Noble}
+F.~K. Noble, ``Comparison of opencv’s feature detectors and feature
+  matchers.'' \url{In 2016 23rd International Conference on Mechatronics and
+  Machine Vision in Practice (M2VIP), pages 1–6, Nov 2016}.
+\newblock [Online; accessed 09-October-2017].
+
+\bibitem{Ethan}
+K.~K. Ethan~Rublee, Vincent~Rabaud and G.~Bradski, ``Orb: An efficient
+  alternative to sift or surf.'' \url{In Computer Vision (ICCV), 2011 IEEE
+  international conference on, pages 2564–2571. IEEE, 2011}.
+\newblock [Online; accessed 09-October-2017].
+
+\bibitem{Nobel2}
+F.~K. Noble, ``opencv projects/colour detection at master · fknoble/opencv
+  projects.'' \url{https://github.com/FKNoble/opencv_projects/tree/master/
+  colour_detection}.
+\newblock [Online; accessed 09-October-2017].
 
 \end{thebibliography}

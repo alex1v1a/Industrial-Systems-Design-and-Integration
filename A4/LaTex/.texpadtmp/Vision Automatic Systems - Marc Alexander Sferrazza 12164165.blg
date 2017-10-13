@@ -3,46 +3,46 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: /Users/FLCL/Documents/University 2017/Industrial-Systems-Design-and-Integration/A4/LaTex/.texpadtmp/Vision Automatic Systems - Marc Alexander Sferrazza 12164165.aux
 The style file: ieeetr.bst
 Database file #1: ../references.bib
-You're missing a field name---line 9 of file ../references.bib
- : 
- : %   author = {author},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-Repeated entry---line 15 of file ../references.bib
- : %@misc{Name
- :            ,
-I'm skipping whatever remains of this entry
-Warning--all relevant fields are empty in Name
-You've used 1 entry,
+Name 1 in "Pablo Fern ́andez Alcantarilla, Adrien Bartoli, and Andrew J Davison" has a comma at the end for entry PabloA
+while executing---line 969 of file ieeetr.bst
+Name 1 in "Stefan Leutenegger, Margarita Chli, and Roland Y Siegwart" has a comma at the end for entry Stefan
+while executing---line 969 of file ieeetr.bst
+Name 1 in "Elmar Mair, Gregory D Hager, Darius Burschka, Michael Suppa, and Gerhard Hirzinger" has a comma at the end for entry Elmar
+while executing---line 969 of file ieeetr.bst
+Too many commas in name 1 of "Elmar Mair, Gregory D Hager, Darius Burschka, Michael Suppa, and Gerhard Hirzinger" for entry Elmar
+while executing---line 969 of file ieeetr.bst
+Name 1 in "Ethan Rublee, Vincent Rabaud, Kurt Konolige, and Gary Bradski" has a comma at the end for entry Ethan
+while executing---line 969 of file ieeetr.bst
+You've used 15 entries,
             1876 wiz_defined-function locations,
-            479 strings with 3791 characters,
-and the built_in function-call counts, 93 in all, are:
-= -- 2
-> -- 1
+            545 strings with 6030 characters,
+and the built_in function-call counts, 2092 in all, are:
+= -- 200
+> -- 81
 < -- 0
-+ -- 1
-- -- 0
-* -- 3
-:= -- 14
-add.period$ -- 1
-call.type$ -- 1
-change.case$ -- 0
++ -- 35
+- -- 20
+* -- 73
+:= -- 308
+add.period$ -- 30
+call.type$ -- 15
+change.case$ -- 15
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 4
-empty$ -- 16
-format.name$ -- 0
-if$ -- 19
+cite$ -- 15
+duplicate$ -- 60
+empty$ -- 271
+format.name$ -- 20
+if$ -- 533
 int.to.chr$ -- 0
-int.to.str$ -- 1
+int.to.str$ -- 15
 missing$ -- 0
-newline$ -- 6
-num.names$ -- 0
-pop$ -- 4
+newline$ -- 63
+num.names$ -- 14
+pop$ -- 106
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 8
+skip$ -- 50
 stack$ -- 0
 substring$ -- 0
 swap$ -- 0
@@ -50,8 +50,8 @@ text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
-while$ -- 0
-width$ -- 2
-write$ -- 6
-(There were 2 error messages)
+warning$ -- 0
+while$ -- 14
+width$ -- 17
+write$ -- 136
+(There were 5 error messages)
